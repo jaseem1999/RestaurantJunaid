@@ -1,0 +1,244 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color:  rgb(221, 63, 63);
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color: rgb(69, 230, 36);
+    border-radius: 0;
+    border: 0;
+  }
+  #logo-img img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    opacity: .8;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 50px #0f0a0d;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { 
+    vertical-align: middle;
+  }
+  .navbar-brand img {
+      width: 50px;
+      height: 25px;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #a850a4;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  #collapsable-nav a:hover {
+    background-color: wheat;
+
+  }
+  
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { 
+    text-align: right;
+    padding-bottom: 0;
+  }
+  
+  #phone div { 
+    color: #1b2849;
+    text-align: right;
+    padding-right: 15px;
+  }
+  #phone span{
+    width: 100px;
+    height: 15px;
+    color: black;
+  }
+  #phone a:hover{
+    background-color: wheat;
+  }
+  .deliver {
+    background-color: cornsilk;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  .img img {
+    width: 35px;
+    height: 35px;
+    opacity: .8;
+    box-shadow: 0 0 50px #0f0a0d;
+  }
+.container .jumbotron  {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    position: relative;
+    top: 30px;
+  }
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { 
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    background: #36d65e;
+    color: #fff;
+    position: relative;
+    left: 38%;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+  
+  #phone div { 
+    color: #1b2849;
+    text-align: center;
+    padding-right: 15px;
+  }
+  #phone span{
+    width: 100px;
+    height: 15px;
+    border: 5px bold black;
+    color: black;
+  }
+  #phone a:hover{
+    width: 100px;
+    height: 15px;
+    border: 5px bold black;
+    background-color: rgb(224, 153, 19);
+  }
+  .deliver {
+    margin-top: 5px;
+    background-color: cornsilk;
+  }
+
+
+
+  @media (min-width: 1200px) {
+    .container .jumbotron 
+    {
+      position: relative;
+      left: 150px;
+      background: url('../img/r.jpeg') no-repeat;
+      width: 850px;
+      height: 400px;
+     }
+   
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    
+    .container .jumbotron {
+        position: relative;
+        left: 50px;
+        background: url('../img/r.jpeg') no-repeat;
+        width: 850px;
+        height: 400px;
+    }
+   
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    .container .jumbotron {
+        background: url('../img/r.jpeg') no-repeat;
+        height: 375px;
+    }
+    
+  }
+  @media (max-width: 767px) {
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #logo-img img {
+    background: url('../img/avardslogo.jfif') no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+  #phone a { 
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    background: #36d65e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    position: relative;
+    left: 30%;
+    text-align: center;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 479px) {
+    #phone a { 
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 250px;
+        background: #36d65e;
+        color: #fff;
+        position: relative;
+        left: 45%;
+        font-size: 18px;
+        border-radius: 15px;
+        position: relative;
+        left: 10%;
+        text-align: center;
+        padding-bottom: 0;
+      }
+
+
+}

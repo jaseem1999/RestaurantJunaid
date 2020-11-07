@@ -205,9 +205,26 @@ body {
     left: 45%;
     bottom: 25px;
   }
+  .Login input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 225px;
+    background: #36d65e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.Login input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
   #phone2 a :hover {
       background-color: rebeccapurple;
   }
+
   @media (min-width: 1200px) {
     
 }
@@ -220,10 +237,32 @@ body {
       width: 75px;
       height: 75px;
     }
+    .Login input[type="button"]
+    {
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 150px;
+        background: #36d65e;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .Login input[type="button"]
+  {
+      border: none;
+      outline: none;
+      height: 40px;
+      width: 150px;
+      background: #36d65e;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+  }
     
 
   
@@ -299,6 +338,18 @@ body {
         position: relative;
         right: 50px;
     }
+    .Login input[type="button"]{
+      position: relative;
+      left: 60px;
+      border: none;
+      outline: none;
+      height: 40px;
+      width: 225px;
+      background: #36d65e;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+  }
   
 
 }

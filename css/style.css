@@ -72,12 +72,13 @@ body {
     margin-top: 5px;
   }
   #phone a { 
-    text-align: right;
+    text-align: center;
     padding-bottom: 0;
   }
   
   #phone div { 
     color: #1b2849;
+    background-color: #99ca27;
     text-align: right;
     padding-right: 15px;
   }
