@@ -1,0 +1,69 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #181a13;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+      .panel-footer {
+        background-color: rgb(39, 34, 34);
+        
+      }
+      .panel-footer  {
+        font-style: italic;
+        opacity: .8;
+      }
+      .panel-footer span{
+        color: rgba(255, 255, 255, 0.726);
+      }
+      .jnd {
+        width: 75px;
+        height: 75px;
+    
+      }
+      .jnd img{
+        width: 75px;
+        height: 75px;
+      
+      }
+      .row {
+        padding: 25px;
+      }
+    
+      
+      #menu-tile, #specials-tile, #map-tile {
+        height: 250px;
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+        border: 2px solid #3F0C1F;
+        box-shadow: 0 0 5px black;
+        overflow: hidden;
+      }
+      #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+        box-shadow: 0 1px 5px 1px #cccccc;
+      }
+      
+      #menu-tile {
+        background: url('../img/Chicken-Fried-Rice-square-FS-.jpg') no-repeat;
+        background-position: center;
+      }
+      #specials-tile {
+        background: url('../img/kerala-porata-and-spicy.jpg') no-repeat;
+        background-position: center;
+      }
+      
+      #menu-tile span, #specials-tile span, #map-tile span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        opacity: .8;
+      }
+    
