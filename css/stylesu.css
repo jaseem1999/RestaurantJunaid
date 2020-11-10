@@ -202,7 +202,7 @@ body {
     border: none;
     outline: none;
     height: 40px;
-    width: 160px;
+    width: 225px;
     background: #36d65e;
     color: #fff;
     font-size: 18px;
@@ -252,13 +252,8 @@ body {
         font-size: 18px;
         border-radius: 20px;
     }
-  }
 
     @media (min-width: 992px) and (max-width: 1199px) {
-      .Login input[type="button"] {
-        width: 50px;
-
-      }
 
   }
   @media (max-width: 767px) {
@@ -313,7 +308,7 @@ body {
       border: none;
       outline: none;
       height: 40px;
-      width: 100px;
+      width: 200px;
       background: #36d65e;
       color: #fff;
       font-size: 18px;
