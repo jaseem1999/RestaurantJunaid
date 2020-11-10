@@ -1,0 +1,389 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color:  rgb(221, 63, 63);
+    font-family: 'Oxygen', sans-serif;
+    
+  }
+  #header-nav {
+    background-color: rgb(69, 230, 36);
+    border-radius: 0;
+    border: 0;
+    opacity: .8;
+  }
+  #logo-img img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    opacity: .8;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 50px #0f0a0d;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { 
+    vertical-align: middle;
+  }
+  .navbar-brand img {
+      width: 50px;
+      height: 25px;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #a850a4;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  #collapsable-nav a:hover {
+    background-color: wheat;
+
+  }
+  
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { 
+    text-align: center;
+    padding-bottom: 0;
+  }
+  
+  #phone div { 
+    color: #1b2849;
+    background-color: #99ca27;
+    text-align: right;
+    padding-right: 15px;
+  }
+  #phone span{
+    width: 100px;
+    height: 15px;
+    color: black;
+  }
+  #phone a:hover{
+    background-color: wheat;
+  }
+  .deliver {
+    background-color: cornsilk;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  .img img {
+    width: 35px;
+    height: 35px;
+    opacity: .8;
+    box-shadow: 0 0 50px #0f0a0d;
+  }
+  .chicken {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 1px #222;
+      margin-top: 0;
+      margin-bottom: 0;
+      box-shadow: 0 0 50px #0f0a0d;
+  }
+  .category-tile { 
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+  }
+  .category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  .category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #menu-categories-title + div {
+    margin-bottom: 50px;
+  }
+  .menu-item-tile {
+    margin-bottom: 25px;
+  }
+  .menu-item-tile hr {
+    width: 80%;
+  }
+  .menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+  }
+  .menu-item-tile .menu-item-price span {
+    font-size: .6em;
+  }
+  .menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F; 
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+  }
+  .menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+  }
+  .menu-item-description {
+    padding-right: 30px;
+  }
+  h3.menu-item-title {
+    margin: 0 0 10px;
+  }
+  .menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+  }
+  #phone2 span {
+    width: 100px;
+    height: 15px;
+    background-color: wheat;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 45%;
+    bottom: 25px;
+  }
+  .Login input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 225px;
+    background: #36d65e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.Login input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+  #phone2 a :hover {
+      background-color: rebeccapurple;
+  }
+  .panel-footer {
+    background-color: rgb(39, 34, 34);
+  }
+  .panel-footer  {
+    font-style: italic;
+    opacity: .8;
+  }
+  .panel-footer span{
+    color: rgba(255, 255, 255, 0.726);
+  }
+  .jnd {
+    width: 75px;
+    height: 75px;
+
+  }
+  .jnd img{
+    width: 75px;
+    height: 75px;
+  
+  }
+  .row {
+    padding: 25px;
+  }
+  @media (min-width: 1200px) {
+    .Login input[type="button"]
+    {
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 150px;
+        background: #36d65e;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+  @media (max-width: 767px) {
+      
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+      }
+      .navbar-brand h1 { 
+        padding-top: 10px;
+        font-size: 5vw; 
+      }
+      .navbar-brand p { 
+        font-size: .6em;
+        margin-top: 12px;
+      }
+      .navbar-brand p img { 
+        height: 20px;
+      }
+    
+      #collapsable-nav a { 
+        font-size: 1.2em;
+      }
+      #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+      }
+    
+      #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+      }
+      #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      .navbar-brand img{
+          visibility: hidden;
+      }
+      .menu-item-photo, .menu-item-price {
+        position: relative;
+        right: 200px;
+    }
+    .Login input[type="button"]{
+      border: none;
+      outline: none;
+      height: 40px;
+      width: 200px;
+      background: #36d65e;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+
+    }
+
+  }
+  @media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+      }
+      .navbar-brand h1 { 
+        padding-top: 10px;
+        font-size: 5vw; 
+      }
+      .navbar-brand p { 
+        font-size: .6em;
+        margin-top: 12px;
+      }
+      .navbar-brand p img { 
+        height: 20px;
+      }
+    
+      #collapsable-nav a { 
+        font-size: 1.2em;
+      }
+      #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+      }
+    
+      #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+      }
+      #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      .navbar-brand img{
+          visibility: hidden;
+      }
+    .Login input[type="button"]{
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 200px;
+        background: #36d65e;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+  
+
+  }
+
+  @media (max-width: 479px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+
+    }
+
+    .navbar-brand h1 { 
+        padding-top: 5px;
+        font-size: 6vw;
+      }
+
+  }
